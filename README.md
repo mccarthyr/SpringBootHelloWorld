@@ -19,7 +19,8 @@ In the pom.xml file the web dependency was added also:
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-web</artifactId>
-</dependency>```
+</dependency>
+```
 
 Run "**mvn install**" to install any dependencies in your local Maven repository.
 
