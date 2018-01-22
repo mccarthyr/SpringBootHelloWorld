@@ -11,13 +11,13 @@ Simple download the file and unpack it at the directory you want to run the code
 All the details you need and what I have use here can be found from the official documentation at:
 https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#getting-started-first-application
 
-In the src/main/java folder a file called Example.java was created (this is the only file that was not generated) which serves as a web REST controller.
+In the *src/main/java* folder a file called **Example.java** was created (this is the only file that was not generated) which serves as a web REST controller.
 
 In the pom.xml file the web dependency was added also:
-<dependency>
+`<dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
+</dependency>`
 
 Run "**mvn install**" to install any dependencies in your local Maven repository.
 
