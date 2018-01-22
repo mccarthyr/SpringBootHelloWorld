@@ -14,6 +14,7 @@ https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#g
 In the *src/main/java* folder a file called **Example.java** was created (this is the only file that was not generated) which serves as a web REST controller.
 
 In the pom.xml file the web dependency was added also:
+
 `<dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-web</artifactId>
