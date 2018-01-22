@@ -15,10 +15,11 @@ In the *src/main/java* folder a file called **Example.java** was created (this i
 
 In the pom.xml file the web dependency was added also:
 
-`<dependency>
+```xml 
+<dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-web</artifactId>
-</dependency>`
+</dependency>```
 
 Run "**mvn install**" to install any dependencies in your local Maven repository.
 
